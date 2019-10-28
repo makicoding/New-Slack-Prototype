@@ -13,7 +13,7 @@ class Page1 extends React.Component {
                 Edit <code>src/App.js</code> and save to reload.
                 </p>
                 <p>
-                Hello, this is Maki's test for page1.js!
+                Hello, this is Maki's test for page1.js and page1.css!
                 </p>
                 <a
                 className="App-link"
