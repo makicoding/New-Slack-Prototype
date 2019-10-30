@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../logo.svg';
+import screenImage from '../components/screen_images';
 import './page1.css';
 
 class Page1 extends React.Component {
@@ -7,6 +8,7 @@ class Page1 extends React.Component {
     render() {
         return (
             <div className="App">
+            <screenImage />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
