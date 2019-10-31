@@ -3,12 +3,20 @@ import logo from '../logo.svg';
 import ScreenImage from '../components/screen_images';
 import './page1.css';
 
+// Run "npm start" to start React app.
+// Run "npm i" or "npm i [specific component name]" in the command line if there are any dependencies missing in the node modules folder.
+
 class Page1 extends React.Component {
 
     render() {
         return (
 
             <div>
+
+                <div>
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_2.png"} alt={"Sketch Screen"} />
+                </div>
+
                 <ScreenImage />
 
                 <div className="App">
