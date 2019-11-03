@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import './page1.css';
+import '../components/screen_image/screenImage.css';
 
 // Run "npm start" to start React app.
 // Run "npm i" or "npm i [specific component name]" in the command line if there are any dependencies missing in the node modules folder.
