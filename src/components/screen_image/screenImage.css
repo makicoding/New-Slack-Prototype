@@ -1,3 +1,13 @@
 .screenImage {
     width: 375px;   /* Screen Image is iPhone XS size.  iPhone XS viewport size is 375px wide x 812px high */
+
+    border: 1px solid #cecece;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-187.5px, 0px);
+
+    /* z-index: 2; */
 };
+
+/* Write a code where width is 100% for mobile screens */
