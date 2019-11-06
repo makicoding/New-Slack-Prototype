@@ -3,7 +3,7 @@
 
     border: 1px solid #cecece;
 
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translate(-187.5px, 0px);
 
