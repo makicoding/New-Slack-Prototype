@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import './page1.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
@@ -18,7 +18,7 @@ class Page1 extends React.Component {
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_2.png"} alt={"Sketch Screen"} />
                 </div>
 
-                <div className="App">
+                {/* <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
@@ -36,7 +36,7 @@ class Page1 extends React.Component {
                     Learn React
                     </a>
                 </header>
-                </div>
+                </div> */}
 
             </div>
         );
