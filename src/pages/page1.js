@@ -14,9 +14,13 @@ class Page1 extends React.Component {
 
             <div>
 
-                <div>
+                <div className="screenImageContainer">
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_2.png"} alt={"Sketch Screen"} />
+
+                    <button className="page1button1"></button>
                 </div>
+
+
 
                 {/* <div className="App">
                 <header className="App-header">
