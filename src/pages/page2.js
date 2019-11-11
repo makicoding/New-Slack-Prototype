@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './page1.css';
+// import './page1.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 
 // Run "npm start" to start React app.
 // Run "npm i" or "npm i [specific component name]" in the command line if there are any dependencies missing in the node modules folder.
 
-class Page1 extends React.Component {
+class Page2 extends React.Component {
 
     page2Button1Click = () => {
         window.open(
@@ -32,4 +32,4 @@ class Page1 extends React.Component {
 
 }
 
-export default Page1;
+export default Page2;
