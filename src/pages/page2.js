@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './page1.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
@@ -8,11 +9,11 @@ import '../components/page_background/pageBackground.css';
 
 class Page1 extends React.Component {
 
-    page1Button1Click = () => {
-        window.open(
-            "/page2"
-        );
-    }
+    // page1Button1Click = () => {
+    //     window.open(
+    //         "/page2", "_self"
+    //     );
+    // }
 
     render() {
         return (
@@ -22,7 +23,10 @@ class Page1 extends React.Component {
                 <div className="screenImageContainer">
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_2.png"} alt={"Sketch Screen"} />
 
-                    <a className="page1button1" onClick={this.page1Button1Click}></a>
+                    {/* <a className="page1button1" onClick={this.page1Button1Click}></a> */}
+
+                    <Link className="page1button1" to="/page2"></Link>
+
                     <a className="page1button2"></a>
                 </div>
 
