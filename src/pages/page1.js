@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from '../logo.svg';
 import { Link } from "react-router-dom";
 import './page1.css';
 import '../components/screen_image/screenImage.css';
