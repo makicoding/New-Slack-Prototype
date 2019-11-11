@@ -24,8 +24,7 @@ class Page1 extends React.Component {
                 <div className="screenImageContainer">
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_1.png"} alt={"Sketch Screen"} />
 
-                    <Link className="page1button1" onClick={this.page1Button1Click}></Link>
-                    <a className="page1button2"></a>
+                    <Link className="page1Button1" onClick={this.page1Button1Click}></Link>
                 </div>
 
 

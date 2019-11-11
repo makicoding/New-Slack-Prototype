@@ -1,4 +1,4 @@
-.page1button1 {
+.page1Button1 {
     width: 67px;
     height: 65px;
 
@@ -9,6 +9,6 @@
     top: 40px;
 }
 
-.page1button1:hover {
+.page1Button1:hover {
     cursor: pointer;
 }
