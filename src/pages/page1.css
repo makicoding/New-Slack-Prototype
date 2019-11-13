@@ -12,6 +12,6 @@
 .page1Button1:hover {
     cursor: pointer;
 
-    background-color: blue;
-    opacity: 0.5;
+    /* background-color: lightcoral;
+    opacity: 0.8; */
 }
