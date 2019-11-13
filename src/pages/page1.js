@@ -9,13 +9,13 @@ import '../components/page_background/pageBackground.css';
 
 class Page1 extends React.Component {
 
-    page1Button1Click = () => {
+    p1Button1Click = () => {
         window.open(
             "/page2", "_self"
         );
     }
 
-    page1Button2Click = () => {
+    p1Button2Click = () => {
         window.open(
             "/page2", "_self"       // Change this link later
         );
@@ -29,9 +29,9 @@ class Page1 extends React.Component {
                 <div className="screenImageContainer">
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_1.png"} alt={"Sketch Screen"} />
 
-                    <Link className="page1Button1" onClick={this.page1Button1Click}></Link>
+                    <Link className="p1Button1" onClick={this.p1Button1Click}></Link>
 
-                    <Link className="page1Button2" onClick={this.page1Button2Click}></Link>
+                    <Link className="p1Button2" onClick={this.p1Button2Click}></Link>
                 </div>
 
 
