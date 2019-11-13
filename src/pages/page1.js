@@ -15,6 +15,12 @@ class Page1 extends React.Component {
         );
     }
 
+    page1Button2Click = () => {
+        window.open(
+            "/page2", "_self"       // Change this link later
+        );
+    }
+
     render() {
         return (
 
@@ -24,6 +30,8 @@ class Page1 extends React.Component {
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_1.png"} alt={"Sketch Screen"} />
 
                     <Link className="page1Button1" onClick={this.page1Button1Click}></Link>
+
+                    <Link className="page1Button2" onClick={this.page1Button2Click}></Link>
                 </div>
 
 
