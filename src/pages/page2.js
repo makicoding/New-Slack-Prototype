@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-// import './page1.css';
+import './page2.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 
@@ -9,7 +9,7 @@ import '../components/page_background/pageBackground.css';
 
 class Page2 extends React.Component {
 
-    page2Button1Click = () => {
+    p2Button1Click = () => {
         window.open(
             "/", "_self"
         );
@@ -23,7 +23,7 @@ class Page2 extends React.Component {
                 <div className="screenImageContainer">
                     <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_2.png"} alt={"Sketch Screen"} />
 
-                    <Link className="page2Button1" onClick={this.page2Button1Click}></Link>
+                    <Link className="p2Button1" onClick={this.p2Button1Click}></Link>
                 </div>
 
             </div>
