@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-// import './page3.css';
+import './page3.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 

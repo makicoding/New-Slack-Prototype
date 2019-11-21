@@ -1,4 +1,4 @@
-.p2Button1 {
+.p3Button1 {
     width: 29px;
     height: 35px;
 
@@ -9,6 +9,6 @@
     top: 46px;
 }
 
-.p2Button1:hover {
+.p3Button1:hover {
     cursor: pointer;
 }
