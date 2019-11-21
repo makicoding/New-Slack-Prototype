@@ -15,7 +15,7 @@ class Page3 extends React.Component {
         );
     }
 
-    p3Button2Click = () => {
+    p3Button3Click = () => {
         window.open(
             "/", "_self"
         );
@@ -31,7 +31,7 @@ class Page3 extends React.Component {
 
                     <Link className="p3Button1" onClick={this.p3Button1Click}></Link>
 
-                    <Link className="p3Button2" onClick={this.p3Button2Click}></Link>
+                    <Link className="p3Button3" onClick={this.p3Button3Click}></Link>
                 </div>
 
             </div>
