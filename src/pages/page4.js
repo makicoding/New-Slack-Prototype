@@ -1,29 +1,23 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './page3.css';
+// import './page3.css';
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 
 // Run "npm start" to start React app.
 // Run "npm i" or "npm i [specific component name]" in the command line if there are any dependencies missing in the node modules folder.
 
-class Page3 extends React.Component {
+class Page4 extends React.Component {
 
-    p3Button1Click = () => {
+    p4Button1Click = () => {
         window.open(
             "/", "_self"
         );
     }
 
-    p3Button2Click = () => {
+    p4Button2Click = () => {
         window.open(
             "/page7", "_self"
-        );
-    }
-
-    p3Button3Click = () => {
-        window.open(
-            "/", "_self"
         );
     }
 
@@ -33,13 +27,11 @@ class Page3 extends React.Component {
             <div>
 
                 <div className="screenImageContainer">
-                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_3.png"} alt={"Sketch Screen"} />
+                    <img className="screenImage" src={"./assets/images/screens_exported_from_sketch_2x_png/HiFi_iPhone_XS_4.png"} alt={"Sketch Screen"} />
 
-                    <Link className="p3Button1" onClick={this.p3Button1Click}></Link>
+                    <Link className="p4Button1" onClick={this.p3Button1Click}></Link>
 
-                    <Link className="p3Button2" onClick={this.p3Button2Click}></Link>
-
-                    <Link className="p3Button3" onClick={this.p3Button3Click}></Link>
+                    <Link className="p4Button2" onClick={this.p3Button2Click}></Link>
                 </div>
 
             </div>
@@ -48,4 +40,4 @@ class Page3 extends React.Component {
 
 }
 
-export default Page3;
+export default Page4;
