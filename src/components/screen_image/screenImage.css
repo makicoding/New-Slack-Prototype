@@ -1,9 +1,9 @@
 .screenImageContainer {
     width: 377px;
-    
+   
     /* background-color: red; */
 
-    position: fixed;
+    position: relative;
     left: 50%;
     transform: translate(-188.5px, 0px);
 }
