@@ -1,4 +1,4 @@
-.p5Button1 {
+.p6Button1 {
     width: 29px;
     height: 35px;
 
@@ -9,11 +9,11 @@
     top: 45px;
 }
 
-.p5Button1:hover {
+.p6Button1:hover {
     cursor: pointer;
 }
 
-.p5Button2 {
+.p6Button2 {
     width: 300px;
     height: 26px;
 
@@ -24,6 +24,6 @@
     top: 726px;
 }
 
-.p5Button2:hover {
+.p6Button2:hover {
     cursor: pointer;
 }
