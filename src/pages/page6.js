@@ -11,13 +11,7 @@ class Page6 extends React.Component {
 
     p6Button1Click = () => {
         window.open(
-            "/page5", "_self"
-        );
-    }
-
-    p6Button2Click = () => {
-        window.open(
-            "/page7", "_self"
+            "/", "_self"
         );
     }
 
@@ -31,7 +25,6 @@ class Page6 extends React.Component {
 
                     <Link className="p6Button1" onClick={this.p6Button1Click}></Link>
 
-                    <Link className="p6Button2" onClick={this.p6Button2Click}></Link>
                 </div>
 
             </div>
