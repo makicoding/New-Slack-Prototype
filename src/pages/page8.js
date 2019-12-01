@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './page5.css';
+import './page5.css';       // Leave this as is because page8 is a mirror of page5
 import '../components/screen_image/screenImage.css';
 import '../components/page_background/pageBackground.css';
 
