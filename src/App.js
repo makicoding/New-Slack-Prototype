@@ -7,6 +7,7 @@ import page4 from "./pages/page4";
 import page5 from "./pages/page5";
 import page6 from "./pages/page6";
 import page7 from "./pages/page7";
+import page8 from "./pages/page8";
 
 // Run "npm start" to start React app.
 // Run "npm i" or "npm i [specific component name]" in the command line if there are any dependencies missing in the node modules folder.
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/page5" component={page5} />
           <Route exact path="/page6" component={page6} />
           <Route exact path="/page7" component={page7} />
+          <Route exact path="/page8" component={page8} />
           {/* <Route exact path="/MainMenu" component={MainMenu} />
           <Route exact path="/CalorieEntry" component={CalorieEntry} />
           <Route exact path="/CalorieEntryEdit" component={CalorieEntryEdit} /> */}
