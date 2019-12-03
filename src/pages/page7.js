@@ -35,6 +35,7 @@ class Page7 extends React.Component {
                 </div>
 
             </div>
+            
         );
     }
 

@@ -28,6 +28,7 @@ class Page6 extends React.Component {
                 </div>
 
             </div>
+            
         );
     }
 
